@@ -3,7 +3,7 @@
 ![dna-thumb](https://github.com/user-attachments/assets/4161e8fd-53e4-461d-a85e-3e5cddb0a767)
 
 **Author:** The French Monkey (TFMSTYLE)  
-**Version:** 1.0.0  
+**Version:** 1.0.1  
 
 ---
 
@@ -98,3 +98,21 @@ If a generated DNA object is already selected, it will be replaced with an updat
 - Enable **Smooth Shading** for presentation models and disable it for clean wireframe visualization.  
 - Materials for both strands and bridges are automatically assigned for quick rendering setup.  
 - To create multiple variations, duplicate the DNA object and adjust **Seed** or structural parameters individually.
+
+---
+
+## Install
+
+Needs Blender 4.2 or later. Get the zip from [tfmstyle.com](https://tfmstyle.com), then in Blender open Edit > Preferences > Get Extensions, open the menu at the top right and pick Install from Disk.
+
+To build the zip yourself, run this in the repo folder:
+
+```bash
+blender --command extension build
+```
+
+---
+
+## License
+
+GPL 3.0 or later. See [LICENSE](LICENSE).
