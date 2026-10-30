@@ -3,7 +3,7 @@
 ![dna-thumb](https://github.com/user-attachments/assets/4161e8fd-53e4-461d-a85e-3e5cddb0a767)
 
 **Author:** The French Monkey (TFMSTYLE)  
-**Version:** 1.0.1  
+**Version:** 1.0.2  
 
 ---
 
