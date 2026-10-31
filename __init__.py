@@ -4,7 +4,7 @@
 bl_info = {
     "name": "DNA",
     "author": "The French Monkey",
-    "version": (1, 0, 2),
+    "version": (1, 0, 3),
     "blender": (4, 2, 0),
     "location": "View3D > Sidebar > Dna",
     "description": "Generate paramatric DNA",
@@ -257,6 +257,8 @@ class DNAGEN_OT_generate(bpy.types.Operator):
     bl_label = "Generate DNA"
     bl_options = {"REGISTER", "UNDO"}
     def execute(self, context):
+        if context.mode != "OBJECT":
+            bpy.ops.object.mode_set(mode="OBJECT")
         generate_dna(context)
         return {"FINISHED"}
 
