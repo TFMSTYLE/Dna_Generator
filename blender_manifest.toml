@@ -1,7 +1,7 @@
 schema_version = "1.0.0"
 
 id = "tfmstyle_dna"
-version = "1.0.3"
+version = "1.0.4"
 name = "TFMSTYLE - DNA"
 tagline = "Generate paramatric DNA"
 maintainer = "The French Monkey"
